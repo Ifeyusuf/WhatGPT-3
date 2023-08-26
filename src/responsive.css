@@ -1,0 +1,26 @@
+@media only screen and (max-width:430px){
+    .container{
+        width: min (100% - 15px, 430px);
+        margin-inline: auto;
+    }
+    .width-sm{
+        width: 100%;
+    }
+    .pc-only{
+        display: none;
+    }
+    .sm-column{
+        flex-direction: column;
+    }
+    .grid{
+        display: grid;
+        grid-template-columns:  repeat(1, 1fr);
+    }
+    img{
+        width: 100%;
+    }
+    .flex-start{
+        display: flex;
+        align-items: flex-start;
+    }
+}

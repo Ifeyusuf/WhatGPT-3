@@ -1,0 +1,97 @@
+
+section{
+    width: 100%;
+}
+.gpt__build{
+    width: 80vw;
+    padding: 1.2rem 0;
+}
+.gpt__build_header{
+    font-size: 2.8rem;
+    padding: 2rem 0;
+    color: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    line-height: 75px;
+    letter-spacing: -0.04em;
+    font-weight: 800;
+}
+.gpt__build_info{
+    font-weight: 400;
+    /* font-size: 19px; */
+    line-height: 28px;
+    color: var(--color-text);
+    margin-top: 0.8rem;
+}
+.gpt__build_input{
+    width: 100%;
+    margin: 2rem 0 1rem 0;
+    display: flex;
+    flex-direction: row;
+}
+.gpt__build_input input{
+    flex: 2;
+    width: 100%;
+    min-height: 50px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    background: var(--color-footer);
+    border: 2px solid var(--color-footer);
+    padding: 0 1rem;
+    outline: none;
+    color: #fff;
+}
+.gpt__build_input button{
+    flex: 0.6;
+    background: var(--red);
+    min-height: 50px;
+    width: 100%;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    border: 2px solid #FF4820;
+    padding: 0 1rem;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+}
+.gpt__group_image{
+    margin-top: 2rem;
+    column-gap: 15px;
+}
+.gpt__group_image p{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 38px;
+    color: var(--white);
+    text-align: center;
+}
+.gpt__ai img{
+    width: 100%;
+}
+@media only screen and (max-width:640px){
+    .gpt__build_header{
+        font-size: 48px;
+        line-height: 60px;
+    }
+    .gpt__build_info p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+@media only screen and (max-width:1024px){
+    .gpt__group_image{
+        padding: 1rem 0;
+    }
+}
+
+@media only screen and (max-width:1233px){
+    .gpt__build_header h1{
+        font-size: 38px;
+    }
+    .gpt__group_image{
+        padding: 1rem 0;
+    }
+}
